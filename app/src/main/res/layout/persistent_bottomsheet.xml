@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottomsheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="#F3F3F3"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/inbetween_space"
+    android:paddingLeft="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/inbetween_space"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="@dimen/bs_peek_height"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bs_item_height"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/iv_fab"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:text="Attachment"
+            android:textColor="#0A0909"
+            android:textSize="@dimen/bs_header_text" />
+
+        <ImageView
+            android:layout_centerInParent="true"
+            android:id="@+id/iv_fab"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:src="@drawable/ic_click_here"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bs_item_height"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/bs_icon_size"
+            android:layout_height="@dimen/bs_icon_size"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:src="@drawable/ic_contacts" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:text="Contact"
+            android:textColor="@color/bs_text_color"
+            android:textSize="@dimen/bs_item_text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bs_item_height"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/bs_icon_size"
+            android:layout_height="@dimen/bs_icon_size"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:src="@drawable/ic_document" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:text="Document"
+            android:textColor="@color/bs_text_color"
+            android:textSize="@dimen/bs_item_text" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bs_item_height"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/bs_icon_size"
+            android:layout_height="@dimen/bs_icon_size"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:src="@drawable/ic_location" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:text="Location"
+            android:textColor="@color/bs_text_color"
+            android:textSize="@dimen/bs_item_text" />
+
+    </LinearLayout>
+</LinearLayout>

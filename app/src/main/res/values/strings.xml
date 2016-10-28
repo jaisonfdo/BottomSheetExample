@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BottomSheet</string>
+    <string name="bs_header">Select image source</string>
+    <string name="bs_gallery">Select from gallery</string>
+    <string name="bs_camera">Select from camera</string>
+    <string name="bs_cancel">Cancel</string>
+</resources>

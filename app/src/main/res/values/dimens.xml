@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="inbetween_space">8dp</dimen>
+    <dimen name="bs_icon_size">24dp</dimen>
+    <dimen name="bs_item_height">48dp</dimen>
+    <dimen name="bs_peek_height">56dp</dimen>
+    <dimen name="bs_header_text">20sp</dimen>
+    <dimen name="bs_item_text">18sp</dimen>
+
+</resources>
